@@ -1,3 +1,10 @@
+/*** @author Joel  */
+
+/**
+ *
+ * @param {Function} a
+ */
+
 function computeNotes(a) {
   var b = a.length,
     c = 0,

@@ -1,3 +1,5 @@
+/*** @author Joel  */
+
 var form = document.createElement("form");
 form.id = "formulaire1";
 

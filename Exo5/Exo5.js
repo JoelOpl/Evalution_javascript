@@ -1,3 +1,5 @@
+/*** @author Joel  */
+
 var form = document.createElement("form");
 form.id = "formulaire1";
 
@@ -44,17 +46,19 @@ input4.name = "Password";
 
 //Button
 var btn = document.createElement("button");
+//STYLE CSS
 btn.style.height = "30px";
 btn.style.width = "50px";
 btn.style.marginTop = "40px";
 btn.style.marginLeft = "70px";
+//
 var br = document.createElement("br");
 var br2 = document.createElement("br");
 var br3 = document.createElement("br");
 var br4 = document.createElement("br");
 var br5 = document.createElement("br");
 var br6 = document.createElement("br");
-
+//APPENDCHILD
 labal4.appendChild(text5);
 labal3.appendChild(text4);
 labal2.appendChild(text3);

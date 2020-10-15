@@ -1,3 +1,5 @@
+/*** @author Joel  */
+
 var GridGenerator = function GridGenerator(xAxis, yAxis) {
   this.xAxis = xAxis;
   this.yAxis = yAxis;

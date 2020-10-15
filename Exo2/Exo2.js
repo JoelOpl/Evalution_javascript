@@ -1,7 +1,17 @@
+/*** @author Joel  */
+/**
+ *
+ * @param {*} sum
+ * @param {*} nbr
+ */
 var drawBar = function drawBar(sum, nbr) {
   this.sum = sum;
   this.nbr = nbr;
 };
+
+/**
+ * @param{}
+ */
 
 drawBar.prototype.bar = function () {
   var progress = document.createElement("progress");
